@@ -1,0 +1,56 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    width: 80%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ol {
+    counter-reset: question;
+}
+li {
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+li p {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+input[type="radio"] {
+    margin-right: 10px;
+}
+label {
+    font-size: 16px;
+}
+input[type="submit"] {
+    display: block;
+    width: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 20px auto;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+}
